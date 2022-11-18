@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f6f8faff;
+}
+.section {
+  margin: 150px 0 0 250px;
+}
+input {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 30px;
+  border: 1px rgb(172, 164, 164) solid;
+  outline: none;
+  border-radius: 5px;
+}
+input:focus::placeholder {
+  color: #ccc;
+}
+.date {
+  font-family: Arial, sans-serif;
+  font-size: 21px;
+  color: rgb(116, 109, 109);
+  margin-bottom: 30px;
+}
+select {
+  padding: 10px 20px;
+  margin-right: 23px;
+  border-radius: 5px;
+  appearance: none;
+  background-image: url(./arrow.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 15px;
+}
+form button {
+  width: 300px;
+  padding: 10px;
+  background-color: #5fb052ff;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  margin: 30px 0;
+  cursor: pointer;
+}
+.or {
+  font-family: Arial, sans-serif;
+  font-size: 21px;
+  color: rgb(116, 109, 109);
+  max-width: 300px;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 30px;
+}
+.or::before,
+.or::after {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 2px;
+  background-color: rgb(161, 157, 157);
+  vertical-align: middle;
+}
+.or::before {
+  margin-right: 15px;
+}
+.or::after {
+  margin-left: 15px;
+}
+.social {
+  width: 300px;
+  padding: 10px;
+  background-color: #4167b3ff;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
